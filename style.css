@@ -102,7 +102,7 @@ h1::after {
 /* Stile für mittlere bis große Bildschirme */
 @media screen and (max-width: 768px) {
   body {
-    max-width: 90%; /* Reduziere die maximale Breite auf 90% für kleinere Bildschirme */
+    max-width: 100%; /* Reduziere die maximale Breite auf 90% für kleinere Bildschirme */
     padding: 10px; /* Verringere den äußeren Abstand für kleinere Bildschirme */
   }
 
