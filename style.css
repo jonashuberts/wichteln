@@ -1,0 +1,118 @@
+/* Grundstyles, die unverändert bleiben */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 60%;
+}
+
+h1 {
+  text-align: center;
+  color: #c62828;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #c62828;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #971b1b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+td:last-child {
+  width: 50px;
+  text-align: center;
+}
+
+th {
+  background-color: #c62828;
+  color: white;
+}
+
+#ziehenButton {
+  display: block;
+  margin: 0 auto;
+}
+
+#fileConfigButton,
+#saveButton {
+  display: block;
+  margin: 10px auto;
+  background-color: #1976d2;
+}
+
+#fileConfigButton:hover,
+#saveButton:hover {
+  background-color: #125493;
+}
+
+#ergebnis {
+  margin-top: 20px;
+  padding: 15px;
+  width: calc(100% - 40px);
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1::after {
+  content: "🎄";
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+
+/* Stile für mittlere bis große Bildschirme */
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 90%; /* Reduziere die maximale Breite auf 90% für kleinere Bildschirme */
+    padding: 10px; /* Verringere den äußeren Abstand für kleinere Bildschirme */
+  }
+
+  input[type="text"] {
+    width: 100%; /* Breite auf 100% für bessere Anzeige auf kleinen Bildschirmen */
+  }
+
+  table {
+    font-size: 14px; /* Verkleinere die Schriftgröße für bessere Lesbarkeit auf kleinen Bildschirmen */
+  }
+
+  /* Weitere Anpassungen je nach Bedarf für kleinere Bildschirme */
+}

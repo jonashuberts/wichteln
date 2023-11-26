@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WichtelWeb</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>WichtelWeb</h1>
+
+    <form id="wichtelForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+      <label for="darfNichtZiehen"
+        >Darf nicht ziehen (getrennt durch Kommas):</label
+      >
+      <input type="text" id="darfNichtZiehen" />
+      <button type="button" id="addButton">Person hinzufügen</button>
+    </form>
+
+    <table id="wichtelTable">
+      <!-- Hier wird die Tabelle dynamisch über JavaScript generiert -->
+    </table>
+
+    <button id="ziehenButton">Wichtel ziehen</button>
+
+    <div id="ergebnis"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
