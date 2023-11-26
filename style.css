@@ -72,18 +72,6 @@ th {
   margin: 0 auto;
 }
 
-#fileConfigButton,
-#saveButton {
-  display: block;
-  margin: 10px auto;
-  background-color: #1976d2;
-}
-
-#fileConfigButton:hover,
-#saveButton:hover {
-  background-color: #125493;
-}
-
 #ergebnis {
   margin-top: 20px;
   padding: 15px;
@@ -115,9 +103,46 @@ h1::after {
     font-size: 32px; /* Verkleinere die Schriftgröße für bessere Lesbarkeit auf kleinen Bildschirmen */
   }
 
-  /* Weitere Anpassungen je nach Bedarf für kleinere Bildschirme */
-
   button {
     font-size: 32px;
+  }
+
+  form {
+    margin-bottom: 40px;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    padding: 16px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+
+  button {
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+
+  table {
+    margin-bottom: 40px;
+  }
+
+  th,
+  td {
+    padding: 16px;
+  }
+
+  #ergebnis {
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 8px;
+  }
+
+  h1::after {
+    content: "🎄";
+    margin-left: 20px;
   }
 }
