@@ -100,19 +100,24 @@ h1::after {
 }
 
 /* Stile für mittlere bis große Bildschirme */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   body {
-    max-width: 100%; /* Reduziere die maximale Breite auf 90% für kleinere Bildschirme */
+    max-width: 100%; /* Reduziere die maximale Breite auf 100% für kleinere Bildschirme */
     padding: 10px; /* Verringere den äußeren Abstand für kleinere Bildschirme */
+    font-size: 32px; /* Verkleinere die Schriftgröße für bessere Lesbarkeit auf kleinen Bildschirmen */
   }
 
   input[type="text"] {
-    width: 100%; /* Breite auf 100% für bessere Anzeige auf kleinen Bildschirmen */
+    font-size: 32px;
   }
 
   table {
-    font-size: 14px; /* Verkleinere die Schriftgröße für bessere Lesbarkeit auf kleinen Bildschirmen */
+    font-size: 32px; /* Verkleinere die Schriftgröße für bessere Lesbarkeit auf kleinen Bildschirmen */
   }
 
   /* Weitere Anpassungen je nach Bedarf für kleinere Bildschirme */
+
+  button {
+    font-size: 32px;
+  }
 }
